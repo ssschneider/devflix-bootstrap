@@ -1,0 +1,66 @@
+.navbar img {
+    height: 60px;
+}
+
+.hero {
+    background: url("../images/hero.png") center center fixed;
+    height: 90vh;
+}
+
+.hero h2 {
+    font-size: 70px;
+    max-width: 580px;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.carrossel {
+    margin: 100px 70px;
+}
+
+.carrossel img {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq {
+    max-width: 650px;
+    margin: 0 auto 120px;
+}
+
+.faq h2, .registrar h2 {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.faq .accordion-button {
+    font-size: 32px;
+}
+
+.faq .accordion-collapse {
+    font-size: 24px;
+}
+
+.registrar {
+    padding: 32px;
+}
+
+.registrar label {
+    display: none;
+}
+
+.registrar .cadastro {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.registrar .cadastro input {
+    outline: none;
+}
+
+*::selection {
+    background-color: #f00;
+    color: #fff;
+}
